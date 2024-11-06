@@ -8,3 +8,10 @@ C:\Users\deban\source\repos\tienda\obj\Debug\tienda.csproj.GenerateResource.cach
 C:\Users\deban\source\repos\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
 C:\Users\deban\source\repos\tienda\obj\Debug\tienda.exe
 C:\Users\deban\source\repos\tienda\obj\Debug\tienda.pdb
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.AssemblyReference.cache
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.Form1.resources
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.Properties.Resources.resources
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.GenerateResource.cache
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.exe
+C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.pdb
