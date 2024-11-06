@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//prueba
+//prueba 2
 namespace tienda
 {
     public partial class Form1 : Form
