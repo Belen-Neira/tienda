@@ -15,3 +15,10 @@ C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.GenerateResour
 C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
 C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.exe
 C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.pdb
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.csproj.AssemblyReference.cache
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.Form1.resources
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.Properties.Resources.resources
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.csproj.GenerateResource.cache
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.exe
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.pdb

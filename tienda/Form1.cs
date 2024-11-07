@@ -12,7 +12,7 @@ namespace tienda
 {
     public partial class Form1 : Form
     {
-        string server = "Data Source = "
+        string server = "Data Source = ";
         public Form1()
         {
             InitializeComponent();
