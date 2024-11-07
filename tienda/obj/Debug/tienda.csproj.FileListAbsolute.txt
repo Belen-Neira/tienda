@@ -22,3 +22,6 @@ C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.csproj.Generat
 C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
 C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.exe
 C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\obj\Debug\tienda.pdb
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\bin\Debug\tienda.exe.config
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\bin\Debug\tienda.exe
+C:\Users\Belen\OneDrive\Escritorio\tienda\tienda\bin\Debug\tienda.pdb
