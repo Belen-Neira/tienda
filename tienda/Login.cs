@@ -19,7 +19,7 @@ namespace tienda
 
 
         //CONEXIÓN A LA BASE DE DATOS ORACLE
-        OracleConnection conexion = new OracleConnection("DATA SOURCE = ** ; PASSWORD = ** ; USER ID = **");
+       /* OracleConnection conexion = new OracleConnection("DATA SOURCE = ** ; PASSWORD = ** ; USER ID = **");
         private void btnLogin_Click(object sender, EventArgs e)
         {
         
@@ -27,7 +27,7 @@ namespace tienda
             OracleCommand comando = new OracleCommand("SELECT * FROM LIBRERIA_IMAGINA.USUARIO WHERE NOMBRE = :nombre AND PASSWORD = :pass", conexion);
 
             comando.Parameters.AddWithValue(":nombre", txtNombre.Text);
-            comando.Parameters.AddWithValue(":pass", txtPass.Text);
+            comando.Parameters.AddWithValue(":pass", lblPass.Text);
 
             OracleDataReader lector = comando.ExecuteReader();
 
@@ -42,11 +42,46 @@ namespace tienda
             {
                 MessageBox.Show("No es posible acceder");
             }
-        }
+        }*/
 
         private void Login_Load(object sender, EventArgs e)
         { 
         
+
+        }
+
+        private void Login_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lblPass_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
