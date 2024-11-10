@@ -29,3 +29,12 @@ C:\Users\Ariel\Source\Repos\tienda\tienda\bin\Debug\tienda.exe
 C:\Users\Ariel\Source\Repos\tienda\tienda\bin\Debug\tienda.pdb
 C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.exe
 C:\Users\Ariel\Source\Repos\tienda\tienda\obj\Debug\tienda.pdb
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.AssemblyReference.cache
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Form1.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Login.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Properties.Resources.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Usuarios.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.GenerateResource.cache
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.CoreCompileInputs.cache
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.exe
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.pdb
