@@ -18,6 +18,11 @@ namespace tienda
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            asd
+        }
     }
 
     //MÉTODO CREAR USUARIO
