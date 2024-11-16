@@ -147,16 +147,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Designer.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DesignerLOG.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Designer 4444.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Designer 444.jpeg" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
