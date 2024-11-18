@@ -58,5 +58,15 @@ namespace tienda
         {
 
         }
+
+        private void textBoxNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

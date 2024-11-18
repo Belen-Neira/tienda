@@ -37,7 +37,7 @@ namespace tienda
         private void btnActualizarLibro(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(txtID.Text);
-            librosDAO.ActualizarLibro(id, txtNombre.Text, txt.Descripcion.Text, txtAutor.Text, Convert.ToDecimal(txtPrecio.Text), Convert.ToInt32(txtCantidad.Text));
+            librosDAO.ActualizarLibro(id, txtNombre.Text, txtDescripcion.Text, txtAutor.Text, Convert.ToDecimal(txtPrecio.Text), Convert.ToInt32(txtCantidad.Text));
             CargarLibros();
         }
 

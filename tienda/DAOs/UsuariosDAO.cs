@@ -18,7 +18,7 @@ namespace tienda.DAOs
         }
 
         //MÉTODO INSERTAR USUARIO
-        public void InsertarUsuario(string password, DateTime lastLogin, int isSuperuser, string rut, string nombre, string apellido, string username, string correo, string telefono, string tipoUsuario, int isActive, int isStaff, int direccionID)
+        public void InsertarUsuario(string password, DateTime lastLogin, int isSuperuser, string rut, string nombre, string apellido, string username, string correo, string telefono, string tipoUsuario, int isActive, int isStaff)
         {
             using (var conn = GetConnection())
             {
@@ -37,7 +37,6 @@ namespace tienda.DAOs
                     cmd.Parameters.Add("p_TipoUsuario", OracleDbType.NVarchar2).Value = tipoUsuario;
                     cmd.Parameters.Add("p_IsActive", OracleDbType.Int32).Value = isActive;
                     cmd.Parameters.Add("p_IsStaff", OracleDbType.Int32).Value = isStaff;
-                    cmd.Parameters.Add("p_DireccionID", OracleDbType.Int32).Value = direccionID;
 
                     conn.Open();
                     cmd.ExecuteNonQuery();
@@ -67,7 +66,7 @@ namespace tienda.DAOs
         }
 
         //MÉTODO ACTUALIZAR USUARIO
-        public void ActualizarUsuario(int id, string password, DateTime lastLogin, int isSuperuser, string rut, string nombre, string apellido, string username, string correo, string telefono, string tipoUsuario, int isActive, int isStaff, int direccionID)
+        public void ActualizarUsuario(int id, string password, DateTime lastLogin, int isSuperuser, string rut, string nombre, string apellido, string username, string correo, string telefono, string tipoUsuario, int isActive, int isStaff)
         {
             using (var conn = GetConnection())
             {
@@ -87,7 +86,6 @@ namespace tienda.DAOs
                     cmd.Parameters.Add("p_TipoUsuario", OracleDbType.NVarchar2).Value = tipoUsuario;
                     cmd.Parameters.Add("p_IsActive", OracleDbType.Int32).Value = isActive;
                     cmd.Parameters.Add("p_IsStaff", OracleDbType.Int32).Value = isStaff;
-                    cmd.Parameters.Add("p_DireccionID", OracleDbType.Int32).Value = direccionID;
 
                     conn.Open();
                     cmd.ExecuteNonQuery();

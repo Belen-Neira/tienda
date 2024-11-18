@@ -35,6 +35,7 @@ namespace tienda
 
         private void btnActualizarOferta(object sender, EventArgs e)
         {
+            int id = Convert.ToInt32(txtID.Text);
             ofertasDAO.ActualizarOferta(id, Convert.ToDecimal(txtDescuento.Text), dtpFechaInicio.Value, dtpFechaFin.Value, Convert.ToInt32(txtLibroID.Text));
             CargarOfertas();
         }
