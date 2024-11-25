@@ -47,5 +47,10 @@ namespace tienda
             librosDAO.EliminarLibro(id);
             CargarLibros();
         }
+
+        private void Libros_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

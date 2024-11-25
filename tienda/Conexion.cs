@@ -14,7 +14,7 @@ namespace tienda
 
     public class OracleDB
     {
-        private String connectionString = "User Id=username;Password=password;Data Source=your_datasource";
+        private String connectionString = "User Id=LIBRERIA_IMAGINA;Password=imagina123;Data Source=LIBRERIA_IMAGINA";
 
         public OracleConnection GetConnection()
         {

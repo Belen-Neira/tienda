@@ -47,5 +47,10 @@ namespace tienda
             usuariosDAO.EliminarUsuario(id);
             CargarUsuarios();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

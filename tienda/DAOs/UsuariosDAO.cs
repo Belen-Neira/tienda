@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Oracle.ManagedDataAccess.Client;
+using System.Windows.Forms;
 
 namespace tienda.DAOs
 {
     internal class UsuariosDAO
     {
-        private string connectionString = "User Id=username;Password=password;Data Source=your_datasource";
+        private string connectionString = "User Id=LIBRERIA_IMAGINA;Password=imagina123;Data Source=LIBRERIA_IMAGINA";
 
         private OracleConnection GetConnection()
         {
@@ -22,7 +23,7 @@ namespace tienda.DAOs
         {
             using (var conn = GetConnection())
             {
-                using (var cmd = new OracleCommand("InsertarUsuario", conn))
+                using (var cmd = new OracleCommand("InsertarUsuario", conn)) 
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add("p_Password", OracleDbType.NVarchar2).Value = password;

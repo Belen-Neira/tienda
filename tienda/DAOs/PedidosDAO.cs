@@ -10,7 +10,7 @@ namespace tienda.DAOs
 {
     internal class PedidosDAO
     {
-        private string connectionString = "User Id=username;Password=password;Data Source=your_datasource";
+        private string connectionString = "User Id=LIBRERIA_IMAGINA;Password=imagina123;Data Source=LIBRERIA_IMAGINA";
 
         private OracleConnection GetConnection()
         {
