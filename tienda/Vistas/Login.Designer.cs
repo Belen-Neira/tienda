@@ -42,18 +42,20 @@
             // 
             this.lblNombre.AutoSize = true;
             this.lblNombre.BackColor = System.Drawing.SystemColors.Window;
-            this.lblNombre.Location = new System.Drawing.Point(129, 336);
+            this.lblNombre.Location = new System.Drawing.Point(172, 411);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(43, 13);
+            this.lblNombre.Size = new System.Drawing.Size(54, 16);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Usuario";
             this.lblNombre.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(417, 457);
+            this.btnLogin.Location = new System.Drawing.Point(556, 562);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(112, 43);
+            this.btnLogin.Size = new System.Drawing.Size(149, 53);
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "Ingresar";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -62,35 +64,39 @@
             // lblPass
             // 
             this.lblPass.AutoSize = true;
-            this.lblPass.Location = new System.Drawing.Point(129, 429);
+            this.lblPass.Location = new System.Drawing.Point(172, 528);
+            this.lblPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(61, 13);
+            this.lblPass.Size = new System.Drawing.Size(76, 16);
             this.lblPass.TabIndex = 2;
             this.lblPass.Text = "Contraseña";
             this.lblPass.Click += new System.EventHandler(this.lblPass_Click);
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(253, 329);
+            this.txtPass.Location = new System.Drawing.Point(337, 405);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(100, 20);
+            this.txtPass.Size = new System.Drawing.Size(132, 22);
             this.txtPass.TabIndex = 3;
             this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(253, 422);
+            this.txtNombre.Location = new System.Drawing.Point(337, 519);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.Size = new System.Drawing.Size(132, 22);
             this.txtNombre.TabIndex = 4;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-13, -4);
+            this.pictureBox1.Location = new System.Drawing.Point(-17, -5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(557, 516);
+            this.pictureBox1.Size = new System.Drawing.Size(743, 635);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -98,15 +104,16 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 512);
+            this.ClientSize = new System.Drawing.Size(721, 630);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.lblPass);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load_1);

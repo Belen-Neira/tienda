@@ -32,62 +32,79 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.ID_LIBRO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NOMBRE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DESCRIPCION = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AUTOR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EDITORIAL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PRECIO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CANTIDAD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewLibros)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridViewLibros
             // 
             this.dataGridViewLibros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewLibros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_LIBRO,
+            this.NOMBRE,
+            this.DESCRIPCION,
+            this.AUTOR,
+            this.EDITORIAL,
+            this.PRECIO,
+            this.CANTIDAD});
             this.dataGridViewLibros.Location = new System.Drawing.Point(12, 12);
             this.dataGridViewLibros.Name = "dataGridViewLibros";
+            this.dataGridViewLibros.RowHeadersWidth = 51;
             this.dataGridViewLibros.Size = new System.Drawing.Size(776, 150);
             this.dataGridViewLibros.TabIndex = 0;
+            this.dataGridViewLibros.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewLibros_CellContentClick);
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(105, 181);
+            this.txtID.Location = new System.Drawing.Point(121, 180);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(100, 20);
+            this.txtID.Size = new System.Drawing.Size(100, 22);
             this.txtID.TabIndex = 1;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(105, 221);
+            this.txtNombre.Location = new System.Drawing.Point(121, 220);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.Size = new System.Drawing.Size(100, 22);
             this.txtNombre.TabIndex = 2;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(105, 261);
+            this.txtDescripcion.Location = new System.Drawing.Point(121, 260);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(100, 20);
+            this.txtDescripcion.Size = new System.Drawing.Size(100, 22);
             this.txtDescripcion.TabIndex = 3;
             // 
             // txtAutor
             // 
-            this.txtAutor.Location = new System.Drawing.Point(105, 300);
+            this.txtAutor.Location = new System.Drawing.Point(121, 299);
             this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(100, 20);
+            this.txtAutor.Size = new System.Drawing.Size(100, 22);
             this.txtAutor.TabIndex = 4;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(105, 338);
+            this.txtPrecio.Location = new System.Drawing.Point(121, 337);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.Size = new System.Drawing.Size(100, 22);
             this.txtPrecio.TabIndex = 5;
             // 
             // txtCantidad
             // 
-            this.txtCantidad.Location = new System.Drawing.Point(105, 381);
+            this.txtCantidad.Location = new System.Drawing.Point(121, 380);
             this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 20);
+            this.txtCantidad.Size = new System.Drawing.Size(100, 22);
             this.txtCantidad.TabIndex = 6;
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(223, 181);
+            this.btnInsertar.Location = new System.Drawing.Point(261, 179);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(75, 23);
             this.btnInsertar.TabIndex = 7;
@@ -97,7 +114,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(223, 221);
+            this.btnActualizar.Location = new System.Drawing.Point(261, 219);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 8;
@@ -107,7 +124,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(223, 261);
+            this.btnEliminar.Location = new System.Drawing.Point(261, 259);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 9;
@@ -120,7 +137,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 186);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 13);
+            this.label1.Size = new System.Drawing.Size(66, 16);
             this.label1.TabIndex = 10;
             this.label1.Text = "NOMBRE";
             // 
@@ -129,7 +146,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 226);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.Size = new System.Drawing.Size(98, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "DESCRIPCION";
             // 
@@ -138,7 +155,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 266);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(55, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "AUTOR";
             // 
@@ -147,7 +164,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 305);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 13);
+            this.label4.Size = new System.Drawing.Size(77, 16);
             this.label4.TabIndex = 13;
             this.label4.Text = "EDITORIAL";
             // 
@@ -156,7 +173,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 343);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 13);
+            this.label5.Size = new System.Drawing.Size(57, 16);
             this.label5.TabIndex = 14;
             this.label5.Text = "PRECIO";
             // 
@@ -165,12 +182,62 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(12, 386);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 13);
+            this.label6.Size = new System.Drawing.Size(76, 16);
             this.label6.TabIndex = 15;
             this.label6.Text = "CANTIDAD";
             // 
+            // ID_LIBRO
+            // 
+            this.ID_LIBRO.HeaderText = "ID_LIBRO";
+            this.ID_LIBRO.MinimumWidth = 6;
+            this.ID_LIBRO.Name = "ID_LIBRO";
+            this.ID_LIBRO.Width = 125;
+            // 
+            // NOMBRE
+            // 
+            this.NOMBRE.HeaderText = "NOMBRE";
+            this.NOMBRE.MinimumWidth = 6;
+            this.NOMBRE.Name = "NOMBRE";
+            this.NOMBRE.Width = 125;
+            // 
+            // DESCRIPCION
+            // 
+            this.DESCRIPCION.HeaderText = "DESCRIPCION";
+            this.DESCRIPCION.MinimumWidth = 6;
+            this.DESCRIPCION.Name = "DESCRIPCION";
+            this.DESCRIPCION.Width = 125;
+            // 
+            // AUTOR
+            // 
+            this.AUTOR.HeaderText = "AUTOR";
+            this.AUTOR.MinimumWidth = 6;
+            this.AUTOR.Name = "AUTOR";
+            this.AUTOR.Width = 125;
+            // 
+            // EDITORIAL
+            // 
+            this.EDITORIAL.HeaderText = "EDITORIAL";
+            this.EDITORIAL.MinimumWidth = 6;
+            this.EDITORIAL.Name = "EDITORIAL";
+            this.EDITORIAL.Width = 125;
+            // 
+            // PRECIO
+            // 
+            this.PRECIO.HeaderText = "PRECIO";
+            this.PRECIO.MinimumWidth = 6;
+            this.PRECIO.Name = "PRECIO";
+            this.PRECIO.Width = 125;
+            // 
+            // CANTIDAD
+            // 
+            this.CANTIDAD.HeaderText = "CANTIDAD";
+            this.CANTIDAD.MinimumWidth = 6;
+            this.CANTIDAD.Name = "CANTIDAD";
+            this.CANTIDAD.Width = 125;
+            // 
             // Libros
             // 
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -203,5 +270,12 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_LIBRO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NOMBRE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AUTOR;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EDITORIAL;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PRECIO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CANTIDAD;
     }
 }

@@ -52,5 +52,10 @@ namespace tienda
         {
 
         }
+
+        private void dataGridViewLibros_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

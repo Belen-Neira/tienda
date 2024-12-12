@@ -47,3 +47,7 @@ C:\Users\Pablo\Source\Repos\tienda\tienda\obj\Debug\tienda.Ofertas.resources
 C:\Users\Pablo\Source\Repos\tienda\tienda\obj\Debug\tienda.Pedidos.resources
 C:\Users\Pablo\Source\Repos\tienda\tienda\obj\Debug\tienda.Usuarios.resources
 C:\Users\Pablo\Source\Repos\tienda\tienda\obj\Debug\tienda.csproj.GenerateResource.cache
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Envios.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Libros.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Ofertas.resources
+C:\Users\Belen\Source\Repos\tienda\tienda\obj\Debug\tienda.Pedidos.resources
