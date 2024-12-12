@@ -8,17 +8,37 @@ using Oracle.ManagedDataAccess.Client;
 
 namespace tienda
 {
-    internal class Conexion
+    public class Conexion
     {
-    }
+        private static Conexion con = null;
 
-    public class OracleDB
-    {
-        private String connectionString = "User Id=LIBRERIA_IMAGINA;Password=imagina123;Data Source=LIBRERIA_IMAGINA";
-
-        public OracleConnection GetConnection()
+        public Conexion()
         {
-            return new OracleConnection(connectionString);
         }
-    }
+
+        public OracleConnection CrearConexion()
+        {
+            OracleConnection orc = new OracleConnection();
+            try
+            {
+                orc.ConnectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED(SERVICE_NAME=xe)));User Id=TSUKI;Password=TSUKI;";
+
+            }
+            catch (Exception ex)
+            {
+                orc = null;
+                throw ex;
+            }
+            return orc;
+        }
+
+        public static Conexion getInstancia()
+        {
+            if (con == null)
+            {
+                con = new Conexion();
+            }
+            return con;
+        }
+    }   
 }
